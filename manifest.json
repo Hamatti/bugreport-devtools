@@ -1,0 +1,13 @@
+{
+    "name": "Example for storage.local",
+    "description": "Testing platform for changing storage",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Click to increase value in storage"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["storage"]
+}
