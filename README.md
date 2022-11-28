@@ -1,5 +1,7 @@
 # Reproduce steps for a possible bug in Firefox dev tools
 
+[The bug report in Bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=1802929)
+
 Here is a small example extension, that when installed (at least temporarily, haven't tried with a signed extension) and toolbar icon is clicked, increases the value of "example" key in `browser.storage.local` by one and prints the old and new value to console.
 
 ## The problem & repro steps
